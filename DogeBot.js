@@ -271,9 +271,9 @@ console.log(e)
 //══════════[ Mess Dll ]══════════//
 
 mess = {
-wait: 'In process...',
+wait: 'In process😁...',
 eror: 'Sorry an error occurred!!',
-success: 'Done✓',
+success: 'ok Done✓',
 error: {
 stick: 'Thats not a sticker bro !!',
 Iv: 'Link invalid !!'
