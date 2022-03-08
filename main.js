@@ -55,7 +55,7 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
         success('2', 'Connected ✓')
     })
         //inform to developer that the user is connected to bot
-    DogeXeonOP.sendMessage(`919337956084@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number`, MessageType.extendedText)
+    DogeXeonOP.sendMessage(`919337956084@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
     teks = `https://chat.whatsapp.com/`
@@ -103,7 +103,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       anu_user = v.vname || v.notify || num.split('@')[0]
       time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
       time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
-      teks = ` 𓉡𝙃𝙞 _*@${num.split('@')[0]}*_ \n 𓉡𝘽𝙞𝙤 : _*${thu.status}*_ \n 𓉡𝙈𝙚𝙢𝙗𝙚𝙧 : _*${memeg}*_ \n 𓉡𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n 𓉡𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
+      teks = `   ⃟🐶⃟    𝙃𝙞 _*@${num.split('@')[0]}*_ \n   ⃟🐶⃟    𝘽𝙞𝙤 : _*${thu.status}*_ \n   ⃟🐶⃟    𝙈𝙚𝙢𝙗𝙚𝙧 : _*${memeg}*_ \n   ⃟🐶⃟    𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n   ⃟🐶⃟    𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
       welcomeBut = [{buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'},type:1}, {buttonId:`#getdesc`,buttonText:{displayText:'READ DESC 📋'},type:1}]
       welcomeButt = { contentText: `${teks}`, footerText: `𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
@@ -118,7 +118,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
       time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
       memeg = mdata.participants.length
-      out = ` 𓉡𝙂𝙤𝙤𝙙𝙗𝙮𝙚 _*@${num.split('@')[0]}*_\n 𓉡𝙃𝙤𝙥𝙚𝙛𝙪𝙡𝙡𝙮 𝙏𝙝𝙚𝙧𝙚 𝙒𝙤𝙣'𝙩 𝘽𝙚 𝘽𝙪𝙧𝙙𝙚𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙮𝙢𝙤𝙧𝙚`
+      out = `   ⃟🐶⃟    𝙂𝙤𝙤𝙙𝙗𝙮𝙚 _*@${num.split('@')[0]}*_\n   ⃟🐶⃟    𝙃𝙤𝙥𝙚𝙛𝙪𝙡𝙡𝙮 𝙏𝙝𝙚𝙧𝙚 𝙒𝙤𝙣'𝙩 𝘽𝙚 𝘽𝙪𝙧𝙙𝙚𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙮𝙢𝙤𝙧𝙚`
       goodbyeBut = [{buttonId:`#gbye`,buttonText:{displayText:'BYE 👋'},type:1}, {buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'}, type:1}]
       goodbyeButt = { contentText: `${out}`, footerText: `𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
