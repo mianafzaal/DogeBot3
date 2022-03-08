@@ -1464,7 +1464,7 @@ menu =
 \`\`\`𝐍𝐈𝐂𝐇𝐄 𝐁𝐔𝐓𝐓𝐎𝐍 𝐌𝐄𝐈𝐍, 𝐌𝐄𝐈𝐍𝐄 𝐀𝐏𝐍𝐀  𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌 𝐈𝐃 𝐃𝐈𝐄𝐀 𝐇𝐀𝐈𝐄, 𝐘𝐀𝐃𝐒𝐄  𝐅𝐎𝐋𝐋𝐎𝐖 𝐊𝐀𝐑𝐋𝐄𝐍𝐀\`\`\`
 
 \`\`\`𝐀𝐔𝐑 𝐘𝐄𝐇 𝐌𝐄𝐑𝐀 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑 𝐇𝐀𝐈:\`\`\`
-➪ *𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑 𝐇𝐀𝐈:* _http://Wa.me/16149454333_`
+➪ *𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑:* _http://Wa.me/16149454333_`
 
 DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'INSTAGRAM📸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
