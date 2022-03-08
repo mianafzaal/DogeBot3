@@ -2,7 +2,7 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Xeon Bot Inc. Doge Bot 
+//© 2022 Sibu Bot Inc. 𝐀𝐫𝐜𝐭𝐢𝐱 𝐁𝐨𝐭 
 //Thank you to Lord Buddha, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '919337956084'
+developerName= 'Arctix'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -141,7 +141,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
         if (!mek.hasNewMessage) return
         mek = mek.messages.all()[0]
 		if (!mek.message) return
-		if (mek.key && mek.key.remoteJid == 'status@broadcast') return
+		if (mek.key && mek.key.remoteJid == 'status@𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓') return
 		global.blocked
     	mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
         const content = JSON.stringify(mek.message)
@@ -164,7 +164,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `919337956084@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -519,7 +519,7 @@ for (let anji of setik){
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
 		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*Doge Bot*', but)
+          sendButton(from, lvlup, '*𝐀𝐫𝐜𝐭𝐢𝐱 𝐁𝐨𝐭*', but)
 
                 }
             } catch (err) {
@@ -616,6 +616,7 @@ _Please Type ${prefix}command_`
 DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 break
 case 'command':
+case 'allmenu':
 
 listMsg = {
 buttonText: 'MENU 📃',
@@ -1458,30 +1459,22 @@ case 'rentbot':
 menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
-\`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
+\`\`\`𝐁𝐇𝐀𝐊 𝐒𝐀𝐋𝐋𝐄😂😂 𝐁𝐀𝐃𝐀 𝐀𝐘𝐀 𝐅𝐑𝐄𝐄 𝐊𝐀 𝐒𝐂𝐑𝐈𝐏𝐓 𝐋𝐄𝐍𝐄 𝐊𝐄  𝐋𝐈𝐘𝐄🧐🧐\`\`\`
 
-\`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _500INR_
-➪ *Premium student :* _1000INR_
+\`\`\`𝐍𝐈𝐂𝐇𝐄 𝐁𝐔𝐓𝐓𝐎𝐍 𝐌𝐄𝐈𝐍, 𝐌𝐄𝐈𝐍𝐄 𝐀𝐏𝐍𝐀  𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌 𝐈𝐃 𝐃𝐈𝐄𝐀 𝐇𝐀𝐈𝐄, 𝐘𝐀𝐃𝐒𝐄  𝐅𝐎𝐋𝐋𝐎𝐖 𝐊𝐀𝐑𝐋𝐄𝐍𝐀\`\`\`
 
-\`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: ₹250 (India)_
+\`\`\`𝐀𝐔𝐑 𝐘𝐄𝐇 𝐌𝐄𝐑𝐀 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑 𝐇𝐀𝐈:\`\`\`
+➪ *𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑 𝐇𝐀𝐈:* _http://Wa.me/16149454333_`
 
-For those who want to buy script or interested in any of the above
-Can request, if interested please contact the developer`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'PAYMENT 💸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'INSTAGRAM📸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
 case 'payment':
 
 gambar = fs.readFileSync('./media/doged.jpg')
-menunya = `*「 PAYMENT 」*
+menunya = `*「  INSTAGRAM 📸」*
 
-• Note: Talk to the owner before payment
-• FamPay : _Please scan the qr above_`
+• Instagram: _https://www.instagram.com/sibssssssss_`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 }
@@ -1507,7 +1500,7 @@ Size : ${res[0].size}
 Link : ${res[0].link}
 
 Please Choose Whether Document, Audio or Video Below`
-        sendButMessage(from, result, `*Doge Bot*`, [
+        sendButMessage(from, result, `*𝐀𝐫𝐜𝐭𝐢𝐱 𝐁𝐨𝐭*`, [
           {
             buttonId: `${prefix}fire ${teks}`,
             buttonText: {
@@ -1732,7 +1725,7 @@ reply(mess.wait)
 bo = args.join(" ")
 ini = await fetchJson(`https://apikey-bear3.herokuapp.com/api/yt/playmp4?query=${bo}&apikey=${KingOfBearKey}`)
 mp4 = await getBuffer(ini.url)
-DogeXeonOP.sendMessage(from, mp4, video, { quoted: mek, caption: `Here is your video🐶` })
+DogeXeonOP.sendMessage(from, mp4, video, { quoted: mek, caption: `Here is your video𓉡` })
 break
 case 'mp3':
 reply(mess.wait)
@@ -2250,7 +2243,7 @@ if (!isNsfw) return reply(mess.only.nsfw)
 reply(mess.wait)
 get_result = await getBuffer(`${porn1}/api/bokep?apikey=RakuKeyTod`)
 pll = `Here u go my friend! dont forget to masterbate, okay?😂`
-sendButVideo(from, pll, `*Doge Bot*`, get_result, [      
+sendButVideo(from, pll, `*𝐀𝐫𝐜𝐭𝐢𝐱 𝐁𝐨𝐭*`, get_result, [      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -2729,6 +2722,15 @@ reply(mess.wait)
 girlneko8383 = await getBuffer(`https://apidhani.herokuapp.com/api/maker/kaneki?apikey=${dhakey}&text=${F1}&text2=${F2}`)
 DogeXeonOP.sendMessage(from, girlneko8383, image, {caption: `Here u go!😛`, quoted: mek})
 break
+case "emoji":
+        if (!q) return fakegroup("the emoji?");
+        qes = args.join(" ");
+        emoji.get(`${qes}`).then((emoji) => {
+          teks = `${emoji.images[4].url}`;
+          sendStickerFromUrl(from, `${teks}`);
+          console.log(teks);
+        });
+        break
 case 'rem':
 
 if (args.length < 1) return reply(`*Example : ${prefix + command} name1&name2*`)
@@ -2837,13 +2839,13 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownername}\n`
-+ `ORG: Owner Of Doge Bot ;\n`
++ `ORG: Owner Of 𝐀𝐫𝐜𝐭𝐢𝐱 𝐁𝐨𝐭 ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${owner}:${owner}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
 { quoted: fgi, 
 })
-reply(`_The above contact is my owner 🐶🦄_`)
+reply(`_The above contact is my owner 𓉡_`)
 break
 case 'developer':
 
@@ -2854,7 +2856,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${developerName}\n`
-+ `ORG: Developer Of Doge Bot ;\n`
++ `ORG: Developer Of 𝐀𝐫𝐜𝐭𝐢𝐱 𝐁𝐨𝐭 ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${developerNo}:${developerNo}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
@@ -2868,9 +2870,9 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓*\n\n_• 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: https://www.instagram.com/sibssssssss_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/Sibuuu07_`
 but = [
-{ buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
+{ buttonId: `${prefix}rentbot`, buttonText: { displayText: 'FREE SCRIPT' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
 ]
 sendButImage(from, scsell, `*_${tanggal} - ${time}_*`, scpic, but)
@@ -3167,13 +3169,13 @@ case 'ninjaname':
 if (args.length < 1) return reply(`[❗] Example :\n*${prefix}${command} Naruto*`)  
 F = body.slice(11)
 anunname = await fetchJson(`https://docs-jojo.herokuapp.com/api/ninja_name?name=${F}`)
-anu1 = `🐶 *NAME* : ${anunname.your_name}\n`
-anu1 += `🐶 *NINJA* : ${anu.result}\n`
+anu1 = `𓉡 *NAME* : ${anunname.your_name}\n`
+anu1 += `𓉡 *NINJA* : ${anu.result}\n`
 reply(anu1)
 break
 case 'stylishcoolname':
 anuscn = await fetchJson(`https://leyscoders-api.herokuapp.com/api/nick-epep?apikey=${Leyscoders}`)
-reply(`*🐶HERE IS YOUR RANDOM STYLISH NAME🐶*\n\n${anuscn.result}`)
+reply(`*𓉡HERE IS YOUR RANDOM STYLISH NAME𓉡*\n\n${anuscn.result}`)
 break
 case 'ssweb':
 case 'ss':
@@ -4028,13 +4030,13 @@ case 'bc':
              const encmediaboomb = isQuotedImage ? JSON.parse(JSON.stringify(DogeXeonOP).replace('quotedM','m')).message.extendedTextMessage.contextInfo : DogeXeonOP
              bc100 = await DogeXeonOP.downloadMediaMessage(encmediaboomb)
              for (let _ of anu100) {
-             DogeXeonOP.sendMessage(_.jid, bc100, image, {quoted: fgi, caption: `*「 Doge Bot Broadcast 」*\n\n${body.slice(4)}`})
+             DogeXeonOP.sendMessage(_.jid, bc100, image, {quoted: fgi, caption: `*「 𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 」*\n\n${body.slice(4)}`})
 }
-             reply('Broadcast success')
+             reply('𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 success')
              } else {
              for (let _ of anu100) {
              DogeXeonOP.sendMessage(_.jid, 
-			{"contentText": `*「 DOGE BOT BROADCASTING MESSAGE 」*\n\n${body.slice(4)}`,
+			{"contentText": `*「 𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐈𝐍𝐆 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 」*\n\n${body.slice(4)}`,
 			"footerText": `${tanggal}`,
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
@@ -4046,7 +4048,7 @@ case 'bc':
 			jpegThumbnail: fakeimage,
 			}}, MessageType.buttonsMessage )
 }
-             reply('Broadcast success')
+             reply('𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 success')
 }
              break
 case 'bc2':
@@ -4060,26 +4062,26 @@ buff = await DogeXeonOP.downloadMediaMessage(encmedia12345)
 for (let _ of anubc2) {
 DogeXeonOP.sendMessage(_.jid, buff, image, { viewOnce:true, caption: `${body.slice(4)}`})
 }
-reply(`Broadcast success ${body.slice(4)}`)
+reply(`𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 success ${body.slice(4)}`)
 } else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
 const encmediaki = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 buff = await DogeXeonOP.downloadMediaMessage(encmediaki)
 for (let _ of anubc2) {
 DogeXeonOP.sendMessage(_.jid, buff, video, { viewOnce:true, caption: `${body.slice(4)}`})
 }
-reply(`Broadcast success ${body.slice(4)}`)
+reply(`𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 success ${body.slice(4)}`)
 } else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
 const encmediadirk = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 buff = await DogeXeonOP.downloadMediaMessage(encmediadirk)
 for (let _ of anubc2) {
 DogeXeonOP.sendMessage(_.jid, buff, video, { mimetype: Mimetype.gif, quoted: finv, contextInfo: { forwardingScore: 508, isForwarded: true}, caption: `${body.slice(4)}` })
 }
-reply(`Broadcast success ${body.slice(4)}`)
+reply(`𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 success ${body.slice(4)}`)
 } else {
 for (let _ of anubc2) {
-sendMess(_.jid, `Bot Broadcast\n\n${body.slice(4)}`)
+sendMess(_.jid, `Bot 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓\n\n${body.slice(4)}`)
 }
-reply(`Broadcast Success`)
+reply(`𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 Success`)
 }
 break
 case 'bcgc':
@@ -4090,14 +4092,14 @@ if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 const encmediabcgc = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 bcgc = await DogeXeonOP.downloadMediaMessage(encmediabcgc)
 for (let _ of groupMembers) {
-DogeXeonOP.sendMessage(_.jid, bcgc, image, { caption: `*「 DOGE BOT BROADCAST 」*\n*Group* : ${groupName}\n\n${body.slice(6)}` })
+DogeXeonOP.sendMessage(_.jid, bcgc, image, { caption: `*「 𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 」*\n*Group* : ${groupName}\n\n${body.slice(6)}` })
 }
 reply('')
 } else {
 for (let _ of groupMembers) {
-sendMess(_.jid, `*「 DOGE BOT BROADCAST 」*\n*Group* : ${groupName}\n\n${body.slice(6)}`)
+sendMess(_.jid, `*「 𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 」*\n*Group* : ${groupName}\n\n${body.slice(6)}`)
 }
-reply('Success broadcast group')
+reply('Success 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 group')
 }
 break
 case 'clearall':
@@ -4732,7 +4734,7 @@ break
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `🐶 @${mem.jid.split('@')[0]}\n`
+						teks += `𓉡 @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -4932,7 +4934,7 @@ reply(`${err}`)
     e = String(e)
     if (!e.includes("this.isZero") && !e.includes("jid")) {
 	console.log('Error : %s', color(e, 'red'))
-	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy Xeon",body:"Dont forget to subscribe Xeon",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/916909137213"}}})
+	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy Xeon",body:"Dont forget to subscribe Xeon",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/919337956084"}}})
         }
 	// console.log(e)
 	}
