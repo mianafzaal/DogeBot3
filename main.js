@@ -1,6 +1,6 @@
 //pls give credit if you reupload 
 //or copy the codes
-//© 2022 Mian Bot Inc. Doge Bot
+//© 2022 Xeon Bot Inc. Doge Bot
 const {
     WAConnection,
     MessageType,
@@ -33,12 +33,12 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 		whitespaceBreak: false
 	}), 'cyan'))
 	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
-console.log(color('> GITHUB: Mian ','silver'))
-console.log(color('> WA NUMBER: +923430436852 ','silver'))
+console.log(color('> GITHUB: DGXeon ','silver'))
+console.log(color('> WA NUMBER: +916909137213 ','silver'))
 console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
-    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/923430436852'))
+    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/916909137213'))
     console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
     console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
@@ -58,7 +58,7 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     DogeXeonOP.sendMessage(`923430436852@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number I'm Mian 😂`, MessageType.extendedText)
     
     //group link target
-    teks = `
+    teks = `https://
     DogeXeonOP.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
     
     await DogeXeonOP.connect({timeoutMs: 30*1000})
@@ -89,10 +89,9 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60"
       }
             if (anu.action == "add" && mem.includes(DogeXeonOP.user.jid)) {
-        DogeXeonOP.sendMessage(anu.jid, "Hello everyone, I'm Mian😁Doge Bot, ready to help you here ㋛︎", "conversation")
+        DogeXeonOP.sendMessage(anu.jid, "Hello everyone, am Doge Bot, ready to help you here ㋛︎", "conversation")
       }
       buffer = await getBuffer(pp_user)
-      if (!isWelkom) return
       if (anu.action == 'add' && !mem.includes(DogeXeonOP.user.jid)) {
       const mdata = await DogeXeonOP.groupMetadata(anu.jid)
       const memeg = mdata.participants.length
