@@ -273,7 +273,7 @@ console.log(e)
 mess = {
 wait: 'In process😁...',
 eror: 'Sorry an error occurred!!',
-success: 'ok Done✓',
+success: 'ok Done✓😘',
 error: {
 stick: 'Thats not a sticker bro !!',
 Iv: 'Link invalid !!'
@@ -2843,7 +2843,7 @@ vcard2 = 'BEGIN:VCARD\n'
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
 { quoted: fgi, 
 })
-reply(`_The above contact is my owner 🐶🦄_`)
+reply(`_The above contact is my owner 💌👻_`)
 break
 case 'developer':
 
