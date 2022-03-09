@@ -81,7 +81,7 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 //══════════[ Developer Number ]══════════//
 
 developerNo = '923430436852'
-developerName= '🦄MIAN💖'
+developerName= '💌MIAN💖'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -626,102 +626,102 @@ sections: [
 "title": `${tanggal} - ${time}`,
 rows: [
 {
-"title": "GROUP MENU",
+"title": "GROUP MENU🤷",
 "description": `Display A List Of Group Features`,
 "rowId": `${prefix}grupmenu`
 },
 {
-"title": "DOWNLOAD MENU",
+"title": "DOWNLOAD MENU📁",
 "description": `Display A List Of Features To Download`,
 "rowId": `${prefix}downloadmenu`
 },
 {
-"title": "MAKER MENU",
+"title": "MAKER MENU📌",
 "description": `Display A List Of Features To Create Logo`,
 "rowId": `${prefix}makermenu`
 },
 {
-"title": "GAME MENU",
+"title": "GAME MENU🎮",
 "description": `Display A List Of Game Features`,
 "rowId": `${prefix}gamemenu`
 },
 {
-"title": "RANDOM IMAGE MENU",
+"title": "RANDOM IMAGE MENU📸",
 "description": `Display A List Of Random Photo Features`,
 "rowId": `${prefix}randomimage`
 },
 {
-"title": "RANDOM VIDEO",
+"title": "RANDOM VIDEO🎬",
 "description": `Display A List Of Random Video Features`,
 "rowId": `${prefix}randomvideo`
 },
 {
-"title": "AESTHETIC GIRL MENU",
+"title": "AESTHETIC GIRL MENU🤷‍♀️",
 "description": `Display A List Of 18+ Intake Features`,
 "rowId": `${prefix}asupanmenu`
 },
 {
-"title": "RANDOM GIRL MENU",
+"title": "RANDOM GIRL MENU🙎‍♀️",
 "description": `Display A List Of Random Girl Features`,
 "rowId": `${prefix}cecanmenu`
 },
 {
-"title": "ANIME MENU",
+"title": "ANIME MENU🧸",
 "description": `Display A List Of Anime Features`,
 "rowId": `${prefix}animemenu`
 },
 {
-"title": "NSFW/HENTAI MENU",
+"title": "NSFW/HENTAI MENU🔞",
 "description": `Display A List Of Nsfw 18+ Features`,
 "rowId": `${prefix}nsfwmenu`
 },
 {
-"title": "STICKER MENU",
+"title": "STICKER MENU☃️",
 "description": `Display A List Of Sticker Features`,
 "rowId": `${prefix}stickermenu`
 },
 {
-"title": "FUN MENU",
+"title": "FUN MENU🎲",
 "description": `Display A List Of Fun Features`,
 "rowId": `${prefix}funmenu`
 },
 {
-"title": "SOUND MENU",
+"title": "SOUND MENU🎧",
 "description": `Display A List Of Sounds`,
 "rowId": `${prefix}soundmenu`
 },
 {
-"title": "OCR MENU",
+"title": "OCR MENU👩‍🔧",
 "description": `Display A List Of Ocr Features`,
 "rowId": `${prefix}ocrmenu`
 },
 {
-"title": "CONVERTER MENU",
+"title": "CONVERTER MENU💖",
 "description": `Display A List Of Convert Features`,
 "rowId": `${prefix}convertmenu`
 },
 {
-"title": "LEVELING MENU",
+"title": "LEVELING MENU🙊",
 "description": `Display A List Of Leveling Features`,
 "rowId": `${prefix}levelingmenu`
 },
 {
-"title": "SEARCH MENU",
+"title": "SEARCH MENU👻",
 "description": `Display A List Of Searching Features`,
 "rowId": `${prefix}searchmenu`
 },
 {
-"title": "APK MENU",
+"title": "APK MENU🎭",
 "description": `Display A List Of Apk Features`,
 "rowId": `${prefix}apkmenu`
 },
 {
-"title": "OTHER MENU",
+"title": "OTHER MENU🎯",
 "description": `Display A List Of Other Features`,
 "rowId": `${prefix}othermenu`
 },
 {
-"title": "OWNER MENU",
+"title": "OWNER MENU🌏",
 "description": `Display A List Of Owner Features`,
 "rowId": `${prefix}ownermenu`
 }
