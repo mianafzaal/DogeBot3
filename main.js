@@ -1,6 +1,6 @@
 //pls give credit if you reupload 
 //or copy the codes
-//© 2022 Mian Bot Inc. Doge Bot
+//© 2022 Xeon Bot Inc. Doge Bot
 const {
     WAConnection,
     MessageType,
@@ -32,10 +32,10 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: Mian ','silver'))
-console.log(color('> GITHUB: mianafzaal ','silver'))
+	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
+console.log(color('> GITHUB: DGXeon ','silver'))
 console.log(color('> WA NUMBER: +923430436852 ','silver'))
-console.log(color('  Mian Bot Inc. 2022','mediumseagreen'))
+console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/923430436852'))
